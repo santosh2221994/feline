@@ -1,0 +1,88 @@
+.content-pos {
+  position: absolute;
+  top: 45%;
+  left: 35%;
+  width: 50%;
+}
+.font-1 {
+  font-weight: 100;
+  letter-spacing: 0.6px;
+  font-size: 14px;
+  color: #dbcdae;
+}
+.font-3 {
+  font-weight: 100;
+  letter-spacing: 0.6px;
+  font-size: 18px;
+  color: #dbcdae;
+  font-weight: bold;
+}
+.font-2 {
+  font-size: 36px;
+  line-height: 1;
+  color: #dbcdae;
+  letter-spacing: 1.3px;
+}
+.hs-vutton {
+  font-weight: 100;
+  letter-spacing: 1.6px;
+  font-size: 14px;
+  color: #dbcdae;
+  background-color: #000;
+  border: solid 1px #dbcdae;
+  padding: 5px 20px;
+}
+
+.hs-vutton:hover {
+  font-weight: 100;
+  letter-spacing: 1.6px;
+  font-size: 14px;
+  color: #000;
+  background-color: #dbcdae;
+  border: solid 1px #dbcdae;
+  padding: 5px 20px;
+  transition: 0.3s;
+}
+@media (max-width: 991px) {
+  .content-pos {
+    position: absolute;
+    top: 46%;
+    left: 58%;
+    width: 46%;
+  }
+  .font-1 {
+    font-weight: 100;
+    letter-spacing: 0.6px;
+    font-size: 8px;
+    line-height: 1.3;
+    margin-bottom: 5px;
+    color: #dbcdae;
+  }
+  .font-2 {
+    font-size: 14px;
+    line-height: 1;
+    color: #dbcdae;
+    letter-spacing: 1.3px;
+    margin-bottom: 5px;
+  }
+  .hs-vutton {
+    font-weight: 100;
+    letter-spacing: 1.6px;
+    font-size: 8px;
+    color: #dbcdae;
+    background-color: #000;
+    border: solid 1px #dbcdae;
+    padding: 5px 20px;
+  }
+
+  .hs-vutton:hover {
+    font-weight: 100;
+    letter-spacing: 1.6px;
+    font-size: 8px;
+    color: #000;
+    background-color: #dbcdae;
+    border: solid 1px #dbcdae;
+    padding: 5px 20px;
+    transition: 0.3s;
+  }
+}

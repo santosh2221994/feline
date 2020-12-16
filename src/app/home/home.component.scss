@@ -1,0 +1,88 @@
+video {
+  min-width: 100%;
+  min-height: 100vh;
+  z-index: 1;
+}
+.bg-video-wrap {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+}
+
+@media (min-width: 992px) {
+  .heading {
+    font-size: 36pt;
+    margin: 0;
+  }
+  input,
+  input:focus {
+    width: 25%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: #000;
+    border: solid 2px #fff;
+    font-size: 16pt;
+    outline: none;
+  }
+  button {
+    border: solid 2px #fff;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    text-transform: uppercase;
+    width: 50%;
+    font-weight: 600;
+    font-size: 16pt;
+  }
+  button:hover,
+  button:focus,
+  button:active {
+    border: solid 2px #fff;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #000;
+    text-transform: uppercase;
+    width: 50%;
+    font-weight: 600;
+    font-size: 16pt;
+    transition: 0.3s;
+    outline: none;
+  }
+}
+@media (max-width: 991px) {
+  .heading {
+    font-size: 20pt;
+    margin: 0;
+  }
+  input,
+  input:focus {
+    width: 25%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: #000;
+    border: solid 2px #fff;
+    font-size: 10pt;
+    outline: none;
+  }
+  button {
+    border: solid 2px #fff;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    text-transform: uppercase;
+    width: 50%;
+    font-weight: 600;
+    font-size: 10pt;
+  }
+  button:hover,
+  button:focus,
+  button:active {
+    border: solid 2px #fff;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #000;
+    text-transform: uppercase;
+    width: 50%;
+    font-weight: 600;
+    font-size: 10pt;
+    transition: 0.3s;
+    outline: none;
+  }
+}

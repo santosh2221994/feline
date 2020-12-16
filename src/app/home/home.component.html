@@ -1,0 +1,26 @@
+<div class="col p-0">
+  <div class="bg-video-wrap">
+    <video loop muted autoplay oncanplay="this.play()" onloadedmetadata="this.muted = true">
+      <source
+        src="https://res.cloudinary.com/skg-projects/video/upload/v1604773801/final_video_2_y50kro.mp4"
+        type="video/mp4">
+    </video>
+  </div>
+  <div class="col d-md-flex d-block" style="text-align: center;position: absolute;top: 40%;">
+    <div class="col-md-3 d-none d-md-block"></div>
+    <div class="col col-md-6">
+      <p class="heading">ENTER YOUR BIRTH YEAR</p>
+      <div class="col d-flex">
+        <div class="col-1 d-flex"></div>
+        <div class="col-10 d-flex">
+          <!-- <form> -->
+          <input placeholder="INDIA" disabled>
+          <input placeholder="YYYY" [(ngModel)]="age" type="number">
+          <button type="submit" (click)="gotoHome()">Enter</button>
+          <!-- </form> -->
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4"></div>
+  </div>
+</div>
